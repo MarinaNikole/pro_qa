@@ -22,7 +22,7 @@ VALUES ("Spain", "(34)86306418"), ("Spain", "(34)86306418")
 
 -- 5. Вывести все товары до 20 EUR из категорий 3 и 6 по убыванию цены.
 SELECT *
-FROM Products
+FROM Productsgit pull origin
 WHERE CategoryID IN (3, 6) 
       AND 
       Price <=20 
